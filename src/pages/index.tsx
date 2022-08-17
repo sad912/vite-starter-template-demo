@@ -1,1 +1,1 @@
-export default () => <div>index</div>
+export default (): any => <div>index</div>
