@@ -5,7 +5,8 @@
   <router-link to="/">Index</router-link>
   |
   <router-link to="/test">Test</router-link>
-  <router-view></router-view>
+  <router-view m-2></router-view>
+
 </template>
 
 <style scoped>
