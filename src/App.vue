@@ -1,9 +1,11 @@
 <script setup lang="ts">
-  import Test from './components/VueJsxTestComponent'
 </script>
 
 <template>
-  <Test></Test>
+  <router-link to="/">Index</router-link>
+  |
+  <router-link to="/test">Test</router-link>
+  <router-view></router-view>
 </template>
 
 <style scoped>
