@@ -16,5 +16,7 @@ module.exports = {
   plugins: [
     'vue'
   ],
-  rules: {}
+  rules: {
+    'object-curly-spacing': ['error', 'always']
+  }
 }
