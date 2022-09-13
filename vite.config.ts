@@ -15,7 +15,8 @@ export default defineConfig({
         // ...custom presets
       ],
       rules: [
-        ['m-1', { margin: '0.25rem' }]
+        [/^m-(\d+)$/, ([, d]) => ({ margin: `${parseInt(d) / 4}rem` })],
+        [/^p-(\d+)$/, match => ({ padding: `${parseInt(match[1]) / 4}rem` })]
       ]
     })
   ]
