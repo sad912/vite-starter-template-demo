@@ -6,9 +6,8 @@ console.log(a)
 <template>
   <router-link to="/">Index</router-link>
   |
-  <router-link to="/test">Test</router-link>
+  <router-link to="/button">button</router-link>
   <router-view m-2></router-view>
-
 </template>
 
 <style scoped>

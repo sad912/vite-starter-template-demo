@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Index from '../pages/index'
-import Test from '../components/VueJsxTestComponent'
+import Button from '../components/Button'
 
 const routes = [
   {
@@ -9,9 +9,9 @@ const routes = [
     component: Index
   },
   {
-    path: '/test',
-    name: 'Test',
-    component: Test
+    path: '/Button',
+    name: 'Button',
+    component: Button
   }
 ]
 
