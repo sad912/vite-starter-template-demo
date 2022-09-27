@@ -1,9 +1,8 @@
 import DefaultTheme from 'vitepress/theme'
-import Button from "../../../src/components/Button.tsx"
-
+import Button from '../../../src/button/src/button'
 export default {
   ...DefaultTheme,
   enhanceApp({app}) {
-    app.component('Test', Button)
+    app.component(Button.name, Button)
   }
 }

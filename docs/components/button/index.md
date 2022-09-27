@@ -2,10 +2,9 @@
 
 ::: info Button
 ```html
-<Test/>
+<DemoButton/>
 ```
 :::
-
-<Test/>
+<DemoButton/>
 
 
